@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader_board</title>
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <!-- header start -->
     <header>
@@ -19,39 +25,183 @@
         <!-- top players and top blogs start-->
         <section class="container">
             <div class="top-players ">
-                <h2 class="section_title">
-                    Top players
-                </h2>
+                <h2 class="section_title">Top players</h2>
                 <div class="players">
                     <div class="player">
                         <img src="media/images/players/player-1.png" alt="">
-                        <h3>Player_1</h3>
+                        <h3 class='player-name'>Player_1</h3>
                     </div>
                     <div class="player">
                         <img src="media/images/players/player-2.png" alt="">
-                        <h3>Player_2</h3>
+                        <h3 class='player-name'>Player_2</h3>
                     </div>
                     <div class="player">
                         <img src="media/images/players/player-3.png" alt="">
-                        <h3>Player_3</h3>
+                        <h3 class='player-name'>Player_3</h3>
                     </div>
                     <div class="player">
                         <img src="media/images/players/player-4.png" alt="">
-                        <h3>Player_4</h3>
+                        <h3 class='player-name'>Player_4</h3>
                     </div>
                     <div class="player">
                         <img src="media/images/players/player-5.png" alt="">
-                        <h3>Player_5</h3>
+                        <h3 class='player-name'>Player_5</h3>
                     </div>
                     <div class="player">
                         <img src="media/images/players/player-6.png" alt="">
-                        <h3>Player_6</h3>
+                        <h3 class='player-name'>Player_6</h3>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="top-blogs">
+                <h2 class="section_title">Top blogs</h2>
+            </div>
+            <div class="blogs">
+                <artical class="blog">
+                    <div class="thumbnail">
+                        <img src="media/images/blogs/blog-1.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3 class="blog-title">
+                            13 of My Favorite UI/UX Goodies
+                        </h3>
+                        <p class="blog-author">By <a href="#">Danny Sapio</a></p>
+                    </div>
+                </artical>
+                <artical class="blog">
+                    <div class="thumbnail">
+                        <img src="media/images/blogs/blog-2.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3 class="blog-title">
+                            13 of My Favorite UI/UX Goodies
+                        </h3>
+                        <p class="blog-author">By <a href="#">Danny Sapio</a></p>
+                    </div>
+                </artical>
+                <artical class="blog">
+                    <div class="thumbnail">
+                        <img src="media/images/blogs/blog-3.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3 class="blog-title">
+                            13 of My Favorite UI/UX Goodies
+                        </h3>
+                        <p class="blog-author">By <a href="#">Danny Sapio</a></p>
+                    </div>
+                </artical>
+                <artical class="blog">
+                    <div class="thumbnail">
+                        <img src="media/images/blogs/blog-4.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3 class="blog-title">
+                            13 of My Favorite UI/UX Goodies
+                        </h3>
+                        <p class="blog-author">By <a href="#">Danny Sapio</a></p>
+                    </div>
+                </artical>
+            </div>
+        </section>
+        <!------------------------------- 
+            top players and top blogs end
+        ----------------------------------->
+        <!--------------------------------- 
+            Latest courses start 
+        ------------------------------------>
+        <section class="container">
+            <h2 class="section_title">
+                Latest courses
+            </h2>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="media/images/courses/course-1.png" alt="">
+                    </div>
+                    <div class="course-detail">
+                        <h3 class="course-title">React - The complete guide 2022</h3>
+                        <p class="course-instractor">
+                            Reed Krakoff.
+                        </p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                            </div>
+                            <p>4.5</p>
+                            <div class="course-duration">
+                                <i class="fa-solid fa-clock"></i>
+                                01:30hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="media/images/courses/course-2.png" alt="">
+                    </div>
+                    <div class="course-detail">
+                        <h3 class="course-title">React - The complete guide 2022</h3>
+                        <p class="course-instractor">
+                            Reed Krakoff.
+                        </p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                            </div>
+                            <p>4.5</p>
+                            <div class="course-duration">
+                                <i class="fa-solid fa-clock"></i>
+                                01:30hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="media/images/courses/course-3.png" alt="">
+                    </div>
+                    <div class="course-detail">
+                        <h3 class="course-title">React - The complete guide 2022</h3>
+                        <p class="course-instractor">
+                            Reed Krakoff.
+                        </p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                            </div>
+                            <p>4.5</p>
+                            <div class="course-duration">
+                                <i class="fa-solid fa-clock"></i>
+                                01:30hr
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- top players and top blogs end -->
+        <!-- ------------------------------
+            Latest courses end 
+        ----------------------------------->
     </main>
     <!-- main end -->
+    <!-- Font awsome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </body>
+
 </html>
